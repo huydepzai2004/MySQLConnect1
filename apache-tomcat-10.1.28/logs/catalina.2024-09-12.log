@@ -1,0 +1,534 @@
+12-Sep-2024 07:18:40.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.28
+12-Sep-2024 07:18:40.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2024 15:14:43 UTC
+12-Sep-2024 07:18:40.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.28.0
+12-Sep-2024 07:18:40.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+12-Sep-2024 07:18:40.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+12-Sep-2024 07:18:40.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+12-Sep-2024 07:18:40.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+12-Sep-2024 07:18:40.380 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.7+8-LTS-224
+12-Sep-2024 07:18:40.380 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+12-Sep-2024 07:18:40.380 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\webnetbeansbinh\apache-tomcat-10.1.28
+12-Sep-2024 07:18:40.380 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\webnetbeansbinh\apache-tomcat-10.1.28
+12-Sep-2024 07:18:40.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\webnetbeansbinh\apache-tomcat-10.1.28\conf\logging.properties
+12-Sep-2024 07:18:40.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Sep-2024 07:18:40.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|LAPTOP-TF242TDG
+12-Sep-2024 07:18:40.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+12-Sep-2024 07:18:40.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+12-Sep-2024 07:18:40.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+12-Sep-2024 07:18:40.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+12-Sep-2024 07:18:40.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+12-Sep-2024 07:18:40.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+12-Sep-2024 07:18:40.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+12-Sep-2024 07:18:40.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\webnetbeansbinh\apache-tomcat-10.1.28
+12-Sep-2024 07:18:40.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\webnetbeansbinh\apache-tomcat-10.1.28
+12-Sep-2024 07:18:40.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\webnetbeansbinh\apache-tomcat-10.1.28\temp
+12-Sep-2024 07:18:40.397 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+12-Sep-2024 07:18:40.419 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+12-Sep-2024 07:18:40.617 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+12-Sep-2024 07:18:40.642 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [447] milliseconds
+12-Sep-2024 07:18:40.706 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+12-Sep-2024 07:18:40.706 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.28]
+12-Sep-2024 07:18:40.721 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\webnetbeansbinh\apache-tomcat-10.1.28\conf\Catalina\localhost\WebApp.xml]
+12-Sep-2024 07:18:40.735 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApp] in deployment descriptor [D:\webnetbeansbinh\apache-tomcat-10.1.28\conf\Catalina\localhost\WebApp.xml] has been ignored
+12-Sep-2024 07:18:41.112 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Sep-2024 07:18:41.239 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\webnetbeansbinh\apache-tomcat-10.1.28\conf\Catalina\localhost\WebApp.xml] has finished in [518] ms
+12-Sep-2024 07:18:41.239 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\webnetbeansbinh\apache-tomcat-10.1.28\webapps\docs]
+12-Sep-2024 07:18:41.301 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Sep-2024 07:18:41.304 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\webnetbeansbinh\apache-tomcat-10.1.28\webapps\docs] has finished in [64] ms
+12-Sep-2024 07:18:41.304 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\webnetbeansbinh\apache-tomcat-10.1.28\webapps\examples]
+12-Sep-2024 07:18:41.569 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Sep-2024 07:18:41.625 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\webnetbeansbinh\apache-tomcat-10.1.28\webapps\examples] has finished in [321] ms
+12-Sep-2024 07:18:41.625 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\webnetbeansbinh\apache-tomcat-10.1.28\webapps\host-manager]
+12-Sep-2024 07:18:41.672 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Sep-2024 07:18:41.679 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\webnetbeansbinh\apache-tomcat-10.1.28\webapps\host-manager] has finished in [54] ms
+12-Sep-2024 07:18:41.681 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\webnetbeansbinh\apache-tomcat-10.1.28\webapps\manager]
+12-Sep-2024 07:18:41.724 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Sep-2024 07:18:41.727 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\webnetbeansbinh\apache-tomcat-10.1.28\webapps\manager] has finished in [46] ms
+12-Sep-2024 07:18:41.727 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\webnetbeansbinh\apache-tomcat-10.1.28\webapps\ROOT]
+12-Sep-2024 07:18:41.772 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Sep-2024 07:18:41.773 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\webnetbeansbinh\apache-tomcat-10.1.28\webapps\ROOT] has finished in [46] ms
+12-Sep-2024 07:18:41.779 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+12-Sep-2024 07:18:41.878 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1235] milliseconds
+12-Sep-2024 07:26:26.942 INFO [http-nio-8080-exec-10] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Sep-2024 07:26:34.676 INFO [http-nio-8080-exec-6] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] has started
+12-Sep-2024 07:26:34.849 INFO [http-nio-8080-exec-6] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Sep-2024 07:26:34.852 INFO [http-nio-8080-exec-6] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] is completed
+12-Sep-2024 07:26:35.287 INFO [http-nio-8080-exec-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] has started
+12-Sep-2024 07:26:35.398 INFO [http-nio-8080-exec-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Sep-2024 07:26:35.400 INFO [http-nio-8080-exec-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] is completed
+12-Sep-2024 07:27:16.604 INFO [http-nio-8080-exec-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] has started
+12-Sep-2024 07:27:16.786 INFO [http-nio-8080-exec-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Sep-2024 07:27:16.790 INFO [http-nio-8080-exec-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] is completed
+12-Sep-2024 07:27:17.112 INFO [http-nio-8080-exec-12] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] has started
+12-Sep-2024 07:27:17.292 INFO [http-nio-8080-exec-12] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Sep-2024 07:27:17.294 INFO [http-nio-8080-exec-12] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] is completed
+12-Sep-2024 07:27:21.839 INFO [http-nio-8080-exec-4] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] has started
+12-Sep-2024 07:27:21.964 INFO [http-nio-8080-exec-4] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Sep-2024 07:27:21.966 INFO [http-nio-8080-exec-4] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] is completed
+12-Sep-2024 07:27:57.985 INFO [http-nio-8080-exec-7] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] has started
+12-Sep-2024 07:27:58.114 INFO [http-nio-8080-exec-7] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Sep-2024 07:27:58.118 INFO [http-nio-8080-exec-7] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] is completed
+12-Sep-2024 07:27:58.445 INFO [http-nio-8080-exec-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] has started
+12-Sep-2024 07:27:58.521 INFO [http-nio-8080-exec-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Sep-2024 07:27:58.523 INFO [http-nio-8080-exec-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] is completed
+12-Sep-2024 07:28:33.085 INFO [http-nio-8080-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] has started
+12-Sep-2024 07:28:33.148 SEVERE [http-nio-8080-exec-13] org.apache.catalina.core.StandardContext.reload Exception starting Context with name [/WebApp]
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApp]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3209)
+		at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:1029)
+		at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:323)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:598)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:355)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:54)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.lang.NoClassDefFoundError: huy/dev/data/dao/DatabaseDao
+		at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+		at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3297)
+		at java.base/java.lang.Class.getDeclaredFields(Class.java:2371)
+		at org.apache.catalina.util.Introspection.getDeclaredFields(Introspection.java:96)
+		at org.apache.catalina.startup.WebAnnotationSet.loadFieldsAnnotation(WebAnnotationSet.java:197)
+		at org.apache.catalina.startup.WebAnnotationSet.loadApplicationServletAnnotations(WebAnnotationSet.java:136)
+		at org.apache.catalina.startup.WebAnnotationSet.loadApplicationAnnotations(WebAnnotationSet.java:68)
+		at org.apache.catalina.startup.ContextConfig.applicationAnnotationsConfig(ContextConfig.java:319)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:964)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4330)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 32 more
+	Caused by: java.lang.ClassNotFoundException: huy.dev.data.dao.DatabaseDao
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1332)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1144)
+		... 45 more
+12-Sep-2024 07:28:33.225 INFO [http-nio-8080-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] is completed
+12-Sep-2024 07:28:50.500 INFO [http-nio-8080-exec-12] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebApp]
+12-Sep-2024 07:28:50.535 INFO [http-nio-8080-exec-13] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\webnetbeansbinh\apache-tomcat-10.1.28\conf\Catalina\localhost\WebApp.xml]
+12-Sep-2024 07:28:50.536 WARNING [http-nio-8080-exec-13] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApp] in deployment descriptor [D:\webnetbeansbinh\apache-tomcat-10.1.28\conf\Catalina\localhost\WebApp.xml] has been ignored
+12-Sep-2024 07:28:50.593 INFO [http-nio-8080-exec-13] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Sep-2024 07:28:50.596 INFO [http-nio-8080-exec-13] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\webnetbeansbinh\apache-tomcat-10.1.28\conf\Catalina\localhost\WebApp.xml] has finished in [60] ms
+12-Sep-2024 07:28:50.598 INFO [http-nio-8080-exec-4] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApp]] after start() had already been called. The second call will be ignored.
+12-Sep-2024 07:28:50.927 INFO [http-nio-8080-exec-9] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] has started
+12-Sep-2024 07:28:50.989 INFO [http-nio-8080-exec-9] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Sep-2024 07:28:50.992 INFO [http-nio-8080-exec-9] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] is completed
+12-Sep-2024 07:29:06.136 INFO [http-nio-8080-exec-18] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] has started
+12-Sep-2024 07:29:06.201 INFO [http-nio-8080-exec-18] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Sep-2024 07:29:06.202 INFO [http-nio-8080-exec-18] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] is completed
+12-Sep-2024 07:29:06.650 INFO [http-nio-8080-exec-15] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] has started
+12-Sep-2024 07:29:06.710 INFO [http-nio-8080-exec-15] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Sep-2024 07:29:06.712 INFO [http-nio-8080-exec-15] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] is completed
+12-Sep-2024 07:29:07.040 INFO [http-nio-8080-exec-12] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] has started
+12-Sep-2024 07:29:07.089 INFO [http-nio-8080-exec-12] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Sep-2024 07:29:07.090 INFO [http-nio-8080-exec-12] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] is completed
+12-Sep-2024 07:29:17.597 INFO [http-nio-8080-exec-18] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] has started
+12-Sep-2024 07:29:17.654 INFO [http-nio-8080-exec-18] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Sep-2024 07:29:17.655 INFO [http-nio-8080-exec-18] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] is completed
+12-Sep-2024 07:29:18.110 INFO [http-nio-8080-exec-21] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] has started
+12-Sep-2024 07:29:18.178 INFO [http-nio-8080-exec-21] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Sep-2024 07:29:18.180 INFO [http-nio-8080-exec-21] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] is completed
+12-Sep-2024 07:29:18.506 INFO [http-nio-8080-exec-16] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] has started
+12-Sep-2024 07:29:18.563 INFO [http-nio-8080-exec-16] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Sep-2024 07:29:18.564 INFO [http-nio-8080-exec-16] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] is completed
+12-Sep-2024 07:29:30.489 INFO [http-nio-8080-exec-17] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] has started
+12-Sep-2024 07:29:30.551 INFO [http-nio-8080-exec-17] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Sep-2024 07:29:30.552 INFO [http-nio-8080-exec-17] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] is completed
+12-Sep-2024 07:29:30.977 INFO [http-nio-8080-exec-15] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] has started
+12-Sep-2024 07:29:31.029 INFO [http-nio-8080-exec-15] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Sep-2024 07:29:31.030 INFO [http-nio-8080-exec-15] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] is completed
+12-Sep-2024 07:42:00.953 INFO [http-nio-8080-exec-26] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] has started
+12-Sep-2024 07:42:01.026 INFO [http-nio-8080-exec-26] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Sep-2024 07:42:01.028 INFO [http-nio-8080-exec-26] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] is completed
+12-Sep-2024 07:42:05.989 INFO [http-nio-8080-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] has started
+12-Sep-2024 07:42:06.039 INFO [http-nio-8080-exec-25] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Sep-2024 07:42:06.040 INFO [http-nio-8080-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] is completed
+12-Sep-2024 07:43:46.955 INFO [http-nio-8080-exec-27] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] has started
+12-Sep-2024 07:43:47.007 INFO [http-nio-8080-exec-27] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Sep-2024 07:43:47.009 INFO [http-nio-8080-exec-27] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] is completed
+12-Sep-2024 07:43:49.988 INFO [http-nio-8080-exec-35] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] has started
+12-Sep-2024 07:43:50.039 INFO [http-nio-8080-exec-35] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Sep-2024 07:43:50.040 INFO [http-nio-8080-exec-35] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] is completed
+12-Sep-2024 07:54:04.206 INFO [http-nio-8080-exec-45] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] has started
+12-Sep-2024 07:54:04.268 INFO [http-nio-8080-exec-45] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Sep-2024 07:54:04.269 INFO [http-nio-8080-exec-45] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] is completed
+12-Sep-2024 08:06:45.280 INFO [http-nio-8080-exec-55] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] has started
+12-Sep-2024 08:06:45.351 INFO [http-nio-8080-exec-55] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Sep-2024 08:06:45.352 INFO [http-nio-8080-exec-55] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApp] is completed
+12-Sep-2024 08:12:06.092 SEVERE [http-nio-8080-exec-64] org.apache.tomcat.util.digester.Digester.fatalError Parse fatal error at line [21] column [3]
+	org.xml.sax.SAXParseException; systemId: file:/D:/netbeanswebapp/WebApp/build/web/WEB-INF/web.xml; lineNumber: 21; columnNumber: 3; The element type "servlet-mapping" must be terminated by the matching end-tag "</servlet-mapping>".
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1695)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2899)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1522)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1236)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4330)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.manager.ManagerServlet.start(ManagerServlet.java:1283)
+		at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:335)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:598)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:355)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:54)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+12-Sep-2024 08:12:06.224 SEVERE [http-nio-8080-exec-64] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Parse error in application web.xml file at [file:/D:/netbeanswebapp/WebApp/build/web/WEB-INF/web.xml]
+	org.xml.sax.SAXParseException; systemId: file:/D:/netbeanswebapp/WebApp/build/web/WEB-INF/web.xml; lineNumber: 21; columnNumber: 3; The element type "servlet-mapping" must be terminated by the matching end-tag "</servlet-mapping>".
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1695)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2899)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1522)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1236)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4330)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.manager.ManagerServlet.start(ManagerServlet.java:1283)
+		at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:335)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:598)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:355)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:54)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+12-Sep-2024 08:12:06.325 SEVERE [http-nio-8080-exec-64] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Occurred at line [21] column [3]
+12-Sep-2024 08:12:06.329 SEVERE [http-nio-8080-exec-64] org.apache.catalina.startup.ContextConfig.configureStart Marking this application unavailable due to previous error(s)
+12-Sep-2024 08:12:06.329 SEVERE [http-nio-8080-exec-64] org.apache.catalina.core.StandardContext.startInternal One or more components marked the context as not correctly configured
+12-Sep-2024 08:12:06.330 SEVERE [http-nio-8080-exec-64] org.apache.catalina.core.StandardContext.startInternal Context [/WebApp] startup failed due to previous errors
+12-Sep-2024 08:12:15.568 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/WebApp]
+12-Sep-2024 08:12:15.581 SEVERE [Catalina-utility-1] org.apache.tomcat.util.digester.Digester.fatalError Parse fatal error at line [21] column [3]
+	org.xml.sax.SAXParseException; systemId: file:/D:/netbeanswebapp/WebApp/build/web/WEB-INF/web.xml; lineNumber: 21; columnNumber: 3; The element type "servlet-mapping" must be terminated by the matching end-tag "</servlet-mapping>".
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1695)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2899)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1522)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1236)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4330)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1469)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1435)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1665)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:299)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:973)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1172)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1176)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1154)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+12-Sep-2024 08:12:15.789 SEVERE [Catalina-utility-1] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Parse error in application web.xml file at [file:/D:/netbeanswebapp/WebApp/build/web/WEB-INF/web.xml]
+	org.xml.sax.SAXParseException; systemId: file:/D:/netbeanswebapp/WebApp/build/web/WEB-INF/web.xml; lineNumber: 21; columnNumber: 3; The element type "servlet-mapping" must be terminated by the matching end-tag "</servlet-mapping>".
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1695)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2899)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1522)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1236)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4330)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1469)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1435)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1665)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:299)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:973)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1172)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1176)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1154)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+12-Sep-2024 08:12:15.865 SEVERE [Catalina-utility-1] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Occurred at line [21] column [3]
+12-Sep-2024 08:12:15.867 SEVERE [Catalina-utility-1] org.apache.catalina.startup.ContextConfig.configureStart Marking this application unavailable due to previous error(s)
+12-Sep-2024 08:12:15.868 SEVERE [Catalina-utility-1] org.apache.catalina.core.StandardContext.startInternal One or more components marked the context as not correctly configured
+12-Sep-2024 08:12:15.868 SEVERE [Catalina-utility-1] org.apache.catalina.core.StandardContext.startInternal Context [/WebApp] startup failed due to previous errors
+12-Sep-2024 08:13:22.513 INFO [http-nio-8080-exec-68] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApp]] after stop() had already been called. The second call will be ignored.
+12-Sep-2024 08:13:23.023 INFO [http-nio-8080-exec-68] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebApp]
+12-Sep-2024 08:13:23.045 INFO [http-nio-8080-exec-74] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\webnetbeansbinh\apache-tomcat-10.1.28\conf\Catalina\localhost\WebApp.xml]
+12-Sep-2024 08:13:23.048 WARNING [http-nio-8080-exec-74] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApp] in deployment descriptor [D:\webnetbeansbinh\apache-tomcat-10.1.28\conf\Catalina\localhost\WebApp.xml] has been ignored
+12-Sep-2024 08:13:23.072 SEVERE [http-nio-8080-exec-74] org.apache.tomcat.util.digester.Digester.fatalError Parse fatal error at line [21] column [3]
+	org.xml.sax.SAXParseException; systemId: file:/D:/netbeanswebapp/WebApp/build/web/WEB-INF/web.xml; lineNumber: 21; columnNumber: 3; The element type "servlet-mapping" must be terminated by the matching end-tag "</servlet-mapping>".
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1695)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2899)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1522)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1236)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4330)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:654)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:635)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:484)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1703)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:264)
+		at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:814)
+		at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+		at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1445)
+		at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:939)
+		at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:314)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:598)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:355)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:54)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+12-Sep-2024 08:13:23.122 SEVERE [http-nio-8080-exec-74] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Parse error in application web.xml file at [file:/D:/netbeanswebapp/WebApp/build/web/WEB-INF/web.xml]
+	org.xml.sax.SAXParseException; systemId: file:/D:/netbeanswebapp/WebApp/build/web/WEB-INF/web.xml; lineNumber: 21; columnNumber: 3; The element type "servlet-mapping" must be terminated by the matching end-tag "</servlet-mapping>".
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1695)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2899)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1522)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1236)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4330)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:654)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:635)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:484)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1703)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:264)
+		at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:814)
+		at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+		at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1445)
+		at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:939)
+		at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:314)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:598)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:355)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:54)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+12-Sep-2024 08:13:23.207 SEVERE [http-nio-8080-exec-74] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Occurred at line [21] column [3]
+12-Sep-2024 08:13:23.212 SEVERE [http-nio-8080-exec-74] org.apache.catalina.startup.ContextConfig.configureStart Marking this application unavailable due to previous error(s)
+12-Sep-2024 08:13:23.213 SEVERE [http-nio-8080-exec-74] org.apache.catalina.core.StandardContext.startInternal One or more components marked the context as not correctly configured
+12-Sep-2024 08:13:23.214 SEVERE [http-nio-8080-exec-74] org.apache.catalina.core.StandardContext.startInternal Context [/WebApp] startup failed due to previous errors
+12-Sep-2024 08:13:23.217 INFO [http-nio-8080-exec-74] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\webnetbeansbinh\apache-tomcat-10.1.28\conf\Catalina\localhost\WebApp.xml] has finished in [173] ms
+12-Sep-2024 08:50:38.789 INFO [http-nio-8080-exec-78] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApp]] after stop() had already been called. The second call will be ignored.
+12-Sep-2024 08:50:39.295 INFO [http-nio-8080-exec-78] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebApp]
+12-Sep-2024 08:50:39.310 INFO [http-nio-8080-exec-77] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\webnetbeansbinh\apache-tomcat-10.1.28\conf\Catalina\localhost\WebApp.xml]
+12-Sep-2024 08:50:39.312 WARNING [http-nio-8080-exec-77] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApp] in deployment descriptor [D:\webnetbeansbinh\apache-tomcat-10.1.28\conf\Catalina\localhost\WebApp.xml] has been ignored
+12-Sep-2024 08:50:39.389 INFO [http-nio-8080-exec-77] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Sep-2024 08:50:39.390 INFO [http-nio-8080-exec-77] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\webnetbeansbinh\apache-tomcat-10.1.28\conf\Catalina\localhost\WebApp.xml] has finished in [80] ms
+12-Sep-2024 08:50:39.394 INFO [http-nio-8080-exec-80] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApp]] after start() had already been called. The second call will be ignored.

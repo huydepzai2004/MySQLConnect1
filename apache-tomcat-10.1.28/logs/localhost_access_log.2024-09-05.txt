@@ -1,0 +1,17 @@
+127.0.0.1 - - [05/Sep/2024:09:21:59 +0700] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [05/Sep/2024:09:21:59 +0700] "GET /manager/text/ HTTP/1.1" 401 2562
+127.0.0.1 - - [05/Sep/2024:09:22:09 +0700] "GET /manager/text/ HTTP/1.1" 401 2562
+127.0.0.1 - - [05/Sep/2024:09:22:10 +0700] "GET /manager/text/ HTTP/1.1" 401 2562
+127.0.0.1 - root [05/Sep/2024:09:22:15 +0700] "GET /manager/text/ HTTP/1.1" 200 39
+127.0.0.1 - - [05/Sep/2024:09:22:15 +0700] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - root [05/Sep/2024:09:22:15 +0700] "GET /manager/text/ HTTP/1.1" 200 39
+127.0.0.1 - - [05/Sep/2024:09:22:15 +0700] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - root [05/Sep/2024:09:22:15 +0700] "GET /manager/text/ HTTP/1.1" 200 39
+127.0.0.1 - - [05/Sep/2024:09:22:15 +0700] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - root [05/Sep/2024:09:22:15 +0700] "GET /manager/text/ HTTP/1.1" 200 39
+127.0.0.1 - root [05/Sep/2024:09:22:15 +0700] "GET /manager/text/list HTTP/1.1" 200 256
+127.0.0.1 - root [05/Sep/2024:09:22:15 +0700] "GET /manager/text/list HTTP/1.1" 200 256
+0:0:0:0:0:0:0:1 - - [05/Sep/2024:09:22:16 +0700] "GET /WebApp HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [05/Sep/2024:09:22:16 +0700] "GET /WebApp/ HTTP/1.1" 200 685
+0:0:0:0:0:0:0:1 - - [05/Sep/2024:09:22:16 +0700] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [05/Sep/2024:09:22:24 +0700] "POST /WebApp/Demoser1 HTTP/1.1" 200 35

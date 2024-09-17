@@ -1,0 +1,62 @@
+17-Sep-2024 07:30:34.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.28
+17-Sep-2024 07:30:34.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2024 15:14:43 UTC
+17-Sep-2024 07:30:34.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.28.0
+17-Sep-2024 07:30:34.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+17-Sep-2024 07:30:34.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+17-Sep-2024 07:30:34.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Sep-2024 07:30:34.506 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+17-Sep-2024 07:30:34.506 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.7+8-LTS-224
+17-Sep-2024 07:30:34.506 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Sep-2024 07:30:34.506 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\webnetbeansbinh\apache-tomcat-10.1.28
+17-Sep-2024 07:30:34.506 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\webnetbeansbinh\apache-tomcat-10.1.28
+17-Sep-2024 07:30:34.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\webnetbeansbinh\apache-tomcat-10.1.28\conf\logging.properties
+17-Sep-2024 07:30:34.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Sep-2024 07:30:34.519 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|LAPTOP-TF242TDG
+17-Sep-2024 07:30:34.519 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Sep-2024 07:30:34.519 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Sep-2024 07:30:34.519 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Sep-2024 07:30:34.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+17-Sep-2024 07:30:34.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+17-Sep-2024 07:30:34.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-Sep-2024 07:30:34.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Sep-2024 07:30:34.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\webnetbeansbinh\apache-tomcat-10.1.28
+17-Sep-2024 07:30:34.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\webnetbeansbinh\apache-tomcat-10.1.28
+17-Sep-2024 07:30:34.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\webnetbeansbinh\apache-tomcat-10.1.28\temp
+17-Sep-2024 07:30:35.071 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+17-Sep-2024 07:30:35.079 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+17-Sep-2024 07:30:35.371 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Sep-2024 07:30:35.400 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1082] milliseconds
+17-Sep-2024 07:30:35.462 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Sep-2024 07:30:35.463 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.28]
+17-Sep-2024 07:30:35.476 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\webnetbeansbinh\apache-tomcat-10.1.28\conf\Catalina\localhost\WebApp.xml]
+17-Sep-2024 07:30:35.491 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApp] in deployment descriptor [D:\webnetbeansbinh\apache-tomcat-10.1.28\conf\Catalina\localhost\WebApp.xml] has been ignored
+17-Sep-2024 07:30:35.917 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Sep-2024 07:30:36.044 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [103] milliseconds.
+17-Sep-2024 07:30:36.087 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\webnetbeansbinh\apache-tomcat-10.1.28\conf\Catalina\localhost\WebApp.xml] has finished in [611] ms
+17-Sep-2024 07:30:36.088 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\webnetbeansbinh\apache-tomcat-10.1.28\webapps\docs]
+17-Sep-2024 07:30:36.178 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Sep-2024 07:30:36.181 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\webnetbeansbinh\apache-tomcat-10.1.28\webapps\docs] has finished in [92] ms
+17-Sep-2024 07:30:36.181 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\webnetbeansbinh\apache-tomcat-10.1.28\webapps\examples]
+17-Sep-2024 07:30:37.175 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Sep-2024 07:30:37.249 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\webnetbeansbinh\apache-tomcat-10.1.28\webapps\examples] has finished in [1,068] ms
+17-Sep-2024 07:30:37.250 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\webnetbeansbinh\apache-tomcat-10.1.28\webapps\host-manager]
+17-Sep-2024 07:30:37.303 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Sep-2024 07:30:37.313 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\webnetbeansbinh\apache-tomcat-10.1.28\webapps\host-manager] has finished in [64] ms
+17-Sep-2024 07:30:37.314 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\webnetbeansbinh\apache-tomcat-10.1.28\webapps\manager]
+17-Sep-2024 07:30:37.363 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Sep-2024 07:30:37.366 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\webnetbeansbinh\apache-tomcat-10.1.28\webapps\manager] has finished in [51] ms
+17-Sep-2024 07:30:37.366 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\webnetbeansbinh\apache-tomcat-10.1.28\webapps\ROOT]
+17-Sep-2024 07:30:37.406 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Sep-2024 07:30:37.408 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\webnetbeansbinh\apache-tomcat-10.1.28\webapps\ROOT] has finished in [42] ms
+17-Sep-2024 07:30:37.413 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Sep-2024 07:30:37.518 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2116] milliseconds
+17-Sep-2024 07:30:39.886 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\webnetbeansbinh\apache-tomcat-10.1.28\conf\Catalina\localhost\WebApp1.xml]
+17-Sep-2024 07:30:39.888 WARNING [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApp1] in deployment descriptor [D:\webnetbeansbinh\apache-tomcat-10.1.28\conf\Catalina\localhost\WebApp1.xml] has been ignored
+17-Sep-2024 07:30:39.972 INFO [http-nio-8080-exec-9] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Sep-2024 07:30:39.975 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\webnetbeansbinh\apache-tomcat-10.1.28\conf\Catalina\localhost\WebApp1.xml] has finished in [89] ms
+17-Sep-2024 07:30:39.981 INFO [http-nio-8080-exec-10] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApp1]] after start() had already been called. The second call will be ignored.
+17-Sep-2024 07:38:46.764 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+17-Sep-2024 07:38:46.765 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Sep-2024 07:38:47.649 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+17-Sep-2024 07:38:47.699 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Sep-2024 07:38:47.719 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
