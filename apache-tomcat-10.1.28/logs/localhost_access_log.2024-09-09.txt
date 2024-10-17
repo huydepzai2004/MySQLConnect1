@@ -1,6 +1,0 @@
-127.0.0.1 - - [09/Sep/2024:00:52:03 +0700] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
-127.0.0.1 - root [09/Sep/2024:00:52:03 +0700] "GET /manager/text/ HTTP/1.1" 200 39
-127.0.0.1 - - [09/Sep/2024:00:52:03 +0700] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
-127.0.0.1 - root [09/Sep/2024:00:52:03 +0700] "GET /manager/text/ HTTP/1.1" 200 39
-127.0.0.1 - - [09/Sep/2024:00:52:04 +0700] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
-127.0.0.1 - root [09/Sep/2024:00:52:04 +0700] "GET /manager/text/ HTTP/1.1" 200 39
